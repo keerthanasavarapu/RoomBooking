@@ -3,11 +3,11 @@ import { Platform, StyleSheet } from 'react-native';
 const DARK = '#1A1C1E';
 const GREY_LABEL = '#78909C';
 const TAB_BORDER = '#B0BEC5';
-/** Same fill for every rate and footer data cell */
+
 const CELL_BG = '#DAE7FB';
-/** Table grid lines (horizontal + vertical) */
+
 const GRID = '#E0E0E0';
-/** Section title strip behind category names */
+
 const SECTION_BG = '#ECEFF1';
 
 export const ROOM_NAME_WIDTH = 132;
@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#FFFFFF',
   },
-  /** Logo + rule: fixed at top; tabs and body scroll below */
+
   screenHeaderSticky: {
     flexShrink: 0,
     paddingTop: 16,
@@ -176,7 +176,7 @@ export const styles = StyleSheet.create({
   tableInner: {
     paddingBottom: 2,
   },
-  /** Horizontal rules only (no vertical column lines) */
+
   tableFrame: {
     alignSelf: 'flex-start',
   },
@@ -263,7 +263,7 @@ export const styles = StyleSheet.create({
     marginTop: 0,
     width: '100%',
   },
-  /** Pinned to bottom of the screen; inventory rows stay visible while the table scrolls */
+  
   inventoryFooterSticky: {
     borderTopWidth: 1,
     borderTopColor: GRID,
@@ -290,7 +290,7 @@ export const styles = StyleSheet.create({
     alignItems: 'stretch',
     width: '100%',
   },
-  /** Full-width footer: no horizontal ScrollView; columns use flex */
+
   footerFixedLayout: {
     width: '100%',
     alignSelf: 'stretch',
@@ -323,7 +323,7 @@ export const styles = StyleSheet.create({
     fontWeight: '600',
     color: DARK,
   },
-  /** Avail/Total values: no pill, plain text; green numbers */
+
   summaryFooterPlain: {
     textAlign: 'center',
     fontWeight: '700',

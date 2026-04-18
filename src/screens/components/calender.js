@@ -129,9 +129,6 @@ function MonthGrid({ viewYear, viewMonthZero, selectedDate, onPickDay }) {
   );
 }
 
-/**
- * Month calendar in a modal (no react-native-calendars / recyclerlistview).
- */
 export default function Calender({ selectedDate, onDateChange }) {
   const [modalVisible, setModalVisible] = useState(false);
   const [viewYear, setViewYear] = useState(() => parseYmd(selectedDate).year);
